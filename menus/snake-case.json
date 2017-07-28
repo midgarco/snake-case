@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Format snake_case",
+        "command": "snake-case:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Snake Case",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "snake-case:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

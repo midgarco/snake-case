@@ -1,0 +1,18 @@
+{
+  "name": "snake-case",
+  "main": "./lib/snake-case",
+  "version": "1.0.0",
+  "description": "Converts camelCase text to snake_case",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "snake-case:format"
+  },
+  "repository": "https://github.com/midgarco/snake-case",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
